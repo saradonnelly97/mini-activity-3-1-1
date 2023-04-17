@@ -17,38 +17,38 @@ body {
 
 /* select the h2 with the id of tagline to change the color to brown */
 
- {
+ #tagline {
   color: brown;
 }
 
 
 /* select the element with the class rosy to make the text  bisque colored */
 
- {
+ .rosy {
   color: bisque;
 }
 
 /* select only the list items inside the element with the class of mojito and make them lime colored */
 
- {
+ .mojito li {
   color: lime;
 }
 
 /* select the direct child h3 the element with the class pear-rose to change the color to rosybrown */
 
- {
+ .pear-rose>h3 {
   color: rosybrown;
 }
 
 /* when hovering over any h2 but not the one with an id of tagline, make the color goldenrod */
 
- {
+h2:hover, #tagline:not {
   color: goldenrod;
 }
 
 /* in each list alternate each color of the even list items to be sandybrown */
 
- {
+ li:nth-child(even) {
   color: sandybrown;
 }
 
