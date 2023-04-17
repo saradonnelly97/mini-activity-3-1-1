@@ -42,7 +42,7 @@ body {
 
 /* when hovering over any h2 but not the one with an id of tagline, make the color goldenrod */
 
-h2:hover, #tagline:not {
+h2:not(#tagline):hover {
   color: goldenrod;
 }
 
@@ -54,7 +54,7 @@ h2:hover, #tagline:not {
 
 /* select all the elements and align the text to center */
 
- {
+ *{
   text-align: center;
 }
 
