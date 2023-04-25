@@ -61,6 +61,9 @@ h2:not(#tagline):hover {
 /* BONUS */
 
 /* change the color of each h2 drink name to something you like */
+.horchata h2{
+  color: teal;
+}
 /* https://htmlcolorcodes.com/color-names/ */
 
 
